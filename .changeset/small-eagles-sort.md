@@ -27,5 +27,5 @@
 
 Support `graphql-js` 17. 
 
-**BREAKING** Drop support for `graphql-js` 15 and 16.
+**BREAKING** Drop support for `graphql-js` 14 and 15.
 **BREAKING** Drop support for Node.js 20.
