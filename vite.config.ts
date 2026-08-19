@@ -3,7 +3,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig(({ mode }) => {
-  const usesLegacyGraphQL = /^graphql-(?:14|15|16)$/.test(mode);
+  const usesLegacyGraphQL = /^graphql-(?:16)$/.test(mode);
   const graphqlPackage = usesLegacyGraphQL ? mode : 'graphql';
 
   return {
